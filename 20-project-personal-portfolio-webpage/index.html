@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Project</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Must import font-weights -->
+    <!-- see https://stackoverflow.com/questions/3367589/font-weight-is-not-working-properly -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200i,300i,400,700" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  </head>
+
+  <body>
+    <div id="page-wrapper">
+
+      <!-- HEADER/NAV BAR -->
+      <header id="hdr">
+        <nav id="navbar">
+          <ul id="navlist">
+            <li class="navlistitem"><a class="navlink" href="#welcome-section">About</a></li>
+            <li class="navlistitem"><a class="navlink" href="#projects">Work</a></li>
+            <li class="navlistitem"><a class="navlink" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- WELCOME SECTION -->
+      <section id="welcome-section">
+        <h1 id="welcome-heading">Hello, I am Brian J. Bayer</h1>
+        <p class="welcome-copy">an experienced Software Developer</p>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects">
+        <h2 id="projects-heading">Some of my work...</h2>
+        <div id="projects-grid">
+          <a
+            class="project-tile"
+            href="https://gist.github.com/brianjbayer/f71feaefa365079cc41d7054b80e9e94"
+            target="_blank"
+          >
+            <img
+              class="project-image"
+              src="https://camo.githubusercontent.com/4788f3fb655a1768423186a5783caf7c85bd385021a0f6bdfbf95be75c3dd8cb/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f70772f414d2d4a4b4c587451394e3235775255723171515a6461306b41536a766a796b6a6b73585271727976767256484b4d39703447724b4531534661324d4554345354414e4c366e745952365951445178334e693073344d69554344674c35634b484c376f33694e2d757975784b7056414d46454b46517a7049357a594938414261626b4730526f35504d6876376d5a6f5f566d364e6278436f344d53797a673d77313132392d683834362d6e6f3f61757468757365723d30"
+              alt="Hand Rail at The Ohio State University"
+            />
+            <p class="project-title">
+              C# Projects Docker
+            </p>
+          </a>
+          <a
+            class="project-tile"
+            href="https://gist.github.com/brianjbayer/e5e9f07e0923d8d097d7b03803ea837b"
+            target="_blank"
+          >
+            <img
+              class="project-image"
+              src="https://camo.githubusercontent.com/2b1a7d43efd23c467490ef867269eb4748c51a2de993a86166d9cff37637a198/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f70772f414d2d4a4b4c5570652d5f383369615931435f6d57534849697059656e6975616d574a52645f385779727856626c384a7267665636576b4b384f5f796b54377a4e366a7264395a4358617270334d337532736e3448526a4e59437676476962396579587846556b346575754a30723734734a34695f364f31317079435154645a64355870486f646756653832434d5f306272386849587a6763494b503d773630302d683533332d6e6f"
+              alt="Kit Kat Clock"
+            />
+            <p class="project-title">Image-Based CI/CD</p>
+          </a>
+          <a
+            class="project-tile"
+            href="https://gist.github.com/brianjbayer/a1e73789fa26deda500c829d1b4d0d88"
+            target="_blank"
+          >
+            <img
+              class="project-image"
+              src="https://camo.githubusercontent.com/90c70f839bc88da4d81603c496c98cedcb6e09c3ccb938217072f7997782e2db/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f70772f414d2d4a4b4c573333485754666d5848744a4a4557456a4d733255305641444830313271686e4577516e4a6b6d4c5559477274534f566430486f4b566c7676692d69394c7a39514c6b36497936715732686e717955764465422d53306b53744247444b484c7a66473168696f6138345575726130537a463936535f7638615139743177414f435f337a7979446a746843356a6966435f396772734f503d77313132302d683733342d6e6f"
+              alt="Ohio State Fair Concession Stand"
+            />
+            <p class="project-title">Reusable Workflows</p>
+          </a>
+        </div>
+        <a
+          class="btn btn-all-projects"
+          href="https://gist.github.com/brianjbayer"
+          target="_blank"
+        >All gists<i class="fas fa-chevron-right"></i>
+        </a>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <h2 id="contact-heading">Hit me up at...</h2>
+        <div id="contact-links">
+          <a
+            id="profile-link"
+            href="https://github.com/brianjbayer"
+            target="_blank"
+            class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub
+        </a>
+        <a
+          href="http://www.linkedin.com/in/brianjbayer"
+          target="_blank"
+          class="btn contact-details"
+        ><i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a 
+          href="mailto: nunya@fakeemail.com"
+          class="btn contact-details"
+        ><i class="fas fa-at"></i> Email
+        </a>
+        </div>
+      </section>
+
+      <!-- FOOTER SECTION -->
+      <footer>
+        <p class="disclaimer">
+          Note that this is a somewhat fake portfolio for a
+          <a
+            class="disclaimer-link"
+            href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+            target="_blank"
+            >freeCodeCamp
+          </a> tutorial project.
+        </p>
+        <p class="disclaimer">
+          &copy; Created by Brian J. Bayer
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
